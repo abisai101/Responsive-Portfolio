@@ -1,0 +1,166 @@
+
+
+footer {
+  
+  padding: 19px;
+  background: #666666;
+  color: white;
+  text-align: center;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+header{
+	height: 60px;
+	color:#ffffff;
+	background-color: white;
+  color: white;
+}
+
+.verticalLine {
+  border-left: thin solid #dddddd;
+}
+
+.main-wrap {
+   width: 960px;
+   margin: 0 auto;
+}
+
+h4{
+  text-align: center;
+  height: 30px;
+}
+
+ nav{
+  float: right;
+  padding: 20px 0;
+}
+
+
+body{
+  background-color: beige;
+  /*background: url("../image/cork-wallet.png");*/
+}
+
+.text-wrap{
+  float:left;
+  margin: 10px;
+}
+
+.name{
+  display: inline-block;
+  height: 20px;
+  background-color: #4aaaa5;
+  padding: 20px;
+  font-size: 150%
+}
+
+a {
+padding: 0 10px;
+}
+
+.contact{
+  width: 150px;
+  background-color: white;
+  text-align: right;
+  float: right;
+  padding: 40px;
+}
+
+.about-me{
+  width: 570px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.box{
+  background-color: white;
+}
+
+h1{
+  color: #4aaaa5;
+ 
+  font-size: 200%;
+  font-family: serif;
+}
+
+.icon{
+  float: left;
+  width: 50px;
+  height:50px; 
+}
+
+h4{
+  color: #4aaaa5;
+  padding: 13px;
+  font-size: 110%;
+}
+
+.photo{
+ margin-top:30px;
+ padding-right: 10px;
+}
+
+.box-left{
+background-color: white;
+    width: 450px;
+    display: inline-block;
+    padding: 80px;
+}
+input[type="text"]{
+  width: 100%;
+}
+textarea{
+  width: 100%;
+}
+
+form{
+  padding: 100px;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: red;
+        max-width: 100%
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+    .main-wrap {
+      max-width: 768px;
+      min-width: 640px;
+      width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: green;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
