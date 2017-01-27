@@ -121,11 +121,35 @@ form{
 }
 
 @media screen and (max-width: 980px) {
-    body {
-        background-color: red;
-        max-width: 100%
+    body{
+      background-color: red;
+    }
+
+    .main-wrap {
+      max-width: 980px;
+      min-width: 768px;
+      width: auto;
+    }
+
+    .contact {
+    float: left;
+    padding: 30px 0;
+    position: absolute;
+    }
+
+    nav {
+
+    float: left;
+    padding: 20px 20px;
+    }
+
+    footer {
+      width: 80%
     }
 }
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -138,13 +162,41 @@ form{
       min-width: 640px;
       width: auto;
     }
+
+    
 }
 
 @media screen and (max-width: 640px) {
     body {
-        background-color: green;
+      background-color: green;
     }
+
+    .main-wrap {
+      max-width: 440px;
+      width: auto;
+    } 
+
+    .Contact{
+      float: auto;
+      padding: 0;
 }
+    .about{
+      width: 370px;
+      padding: 0:;
+      margin-top:auto;
+}
+
+    footer {
+      width: 65%
+}
+
+     nav{
+       text-align: left;
+}
+}
+
+
+
 
 
 
